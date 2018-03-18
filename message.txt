@@ -1,0 +1,8 @@
+#coding:utf-8
+Message:
+#第一步，用命令git add告诉Git，把文件添加到仓库：
+git add readme.txt
+#第二步，用命令git commit告诉Git，把文件提交到仓库：
+git commit -m "wrote a readme file"
+#第三步，本地作了提交，就可以通过命令推送：
+git push origin master
